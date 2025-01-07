@@ -1,12 +1,11 @@
+import { AllRoutes } from "./routes/AllRoutes";
 
 function App() {
-
   return (
-    <>
-      <h1 className='text-red-500'>Hello</h1>
-         
-    </>
-  )
+    <div>
+      <AllRoutes />
+    </div>
+  );
 }
 
-export default App
+export default App;
